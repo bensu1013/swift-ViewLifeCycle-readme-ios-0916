@@ -13,6 +13,7 @@ class ViewController: UIViewController {
 
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        view.backgroundColor = UIColor.randomColor()
         print("viewWillAppear(_:) called")
     }
 
@@ -21,3 +22,4 @@ class ViewController: UIViewController {
         print("viewDidAppear(_:) called")
     }
 }
+    
